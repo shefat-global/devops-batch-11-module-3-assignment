@@ -1,0 +1,156 @@
+
+Region
+
+Asia Pacific
+
+Mumbai ap-south-1
+
+
+--
+
+Create EC2 
+
+shefat-devops-server
+
+ubuntu 
+
+
+key pair
+
+shefat-devops-key-pair
+
+
+Network Settings 
+
+
+got to edit mode then 
+
+
+Auto Assign Public ip 
+
+
+
+security group 
+
+shefat-devops-sg
+
+
+
+inbound security group 
+
+
+
+ssh tcp 22  
+my ip 
+
+
+http tcp 80
+anywhere 
+
+
+https tcp 443
+anywhere 
+
+
+
+Storage 
+
+delete on termination > yes
+
+
+
+number of instance 1
+
+
+
+done 
+
+instance name 
+
+shefat-devops-server
+
+
+---
+
+security group 
+
+
+
+We can edit security group 
+
+by selecting ec2 then click down to security tab 
+ 
+under security tab security group id click there 
+
+in my case sg-08b1cbda9dd190e23 (shefat-devops-sg)
+
+then edit inbound rules 
+
+
+---
+
+
+VPC
+
+create vpc and more 
+
+shefat-devops-vpc
+
+
+---
+
+
+
+
+
+elastic ip 
+
+assign elastic ip 
+
+
+Under network tab 
+
+go down and click 
+
+
+
+shefat-devops-esip
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

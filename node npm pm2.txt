@@ -1,0 +1,31 @@
+sudo apt update
+sudo apt install -y nodejs npm
+
+
+
+sudo npm install pm2@latest -g
+
+
+cd /var/www/secure-app
+
+sudo npm install
+
+sudo npm run build 
+
+
+
+npm run start or 
+
+pm2 start npm --name "next-japan" -- run start
+
+
+pm2 save 
+
+pm2 startup 
+
+pm2 list
+
+pm2 stop 
+
+
+pm2 stop next-japan

@@ -1,0 +1,29 @@
+sudo apt update 
+
+
+sudo apt upgrade 
+
+---
+
+
+sudo apt full-upgrade
+
+
+
+sudo apt autoremove
+
+
+sudo apt clean
+
+
+---
+sudo mkdir -p /var/www/secure-app
+
+
+sudo chown -R www-data:www-data /var/www/secure-app
+
+
+sudo chmod -R 755 /var/www/secure-app
+
+
+cd /var/www/secure-app

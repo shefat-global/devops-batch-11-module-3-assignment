@@ -1,0 +1,16 @@
+sudo mkdir -p /etc/nginx/ssl
+
+
+sudo openssl req -x509 -newkey rsa:4096 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt -days 365 -nodes
+
+
+Common Name = 13.201.6.22
+
+
+
+cat nginx.crt
+
+
+---
+
+

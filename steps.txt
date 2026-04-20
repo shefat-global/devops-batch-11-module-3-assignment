@@ -1,0 +1,19 @@
+ec2
+
+ssh
+
+git clone
+
+nginx 
+
+ssl
+
+node and npm globally install
+
+pm2 globally install 
+
+npm install on project file 
+
+npm run build 
+
+pm2 run project 

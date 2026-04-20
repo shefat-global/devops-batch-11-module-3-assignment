@@ -1,0 +1,17 @@
+shell connection 
+
+public 
+
+elastic ip 
+	
+13.201.6.22
+
+
+
+
+chmod 400 shefat-devops-key-pair.pem
+
+
+
+ssh -i shefat-devops-key-pair.pem ubuntu@13.201.6.22
+
